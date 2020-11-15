@@ -1,0 +1,175 @@
+.el-notification {
+    border-radius: 3px;
+    padding: 20px 26px 20px 13px;
+
+    &__title {
+        font-weight: 400;
+        margin-bottom: 10px;
+
+        &:empty {
+            display: none;
+        }
+    }
+
+    &__content {
+        margin: 0;
+        text-align: left;
+    }
+
+    &__closeBtn {
+        top: 21px;
+    }
+}
+
+.el-dropdown-menu {
+    &__item {
+        & > * {
+            margin: 0 -20px;
+            padding: 0 20px;
+        }
+
+        & > a {
+            display: block;
+        }
+
+        &--active {
+            background-color: #ecf5ff;
+            color: #66b1ff;
+        }
+    }
+
+    &--medium &__item {
+        & > * {
+            margin: 0 -17px;
+            padding: 0 17px;
+        }
+    }
+
+    &.el-dropdown-menu--wide {
+        .el-dropdown-menu__item {
+            min-width: 150px;
+        }
+    }
+}
+
+.el-menu {
+    border: none;
+}
+
+.el-button.back {
+    span {
+        color: #000!important;
+    }
+}
+
+.el-button {
+    outline: none !important;
+    &:active {
+        color: unset!important;
+        border-color: unset!important;
+    }
+}
+
+.el-button.confirm {
+    background: #07B53A!important;
+
+    span {
+        color: #fff!important;
+    }
+}
+
+.el-button.confirm {
+    &:disabled {
+        background: #fff!important;
+
+        span {
+            color: #000!important;
+        }
+    }
+}
+
+.el-button.btn-black {
+    background: #45464F!important;
+
+    span {
+        color: #fff!important;
+    }
+}
+
+.el-button.money-request__btn-back {
+    background: #FFFFFF;
+    border: 1px solid #07B53A;
+    box-sizing: border-box;
+    border-radius: 2px;
+    span {
+        color: #07B53A;
+    }
+    &:active {
+        background: #FFFFFF;
+        /* Main-color-blue */
+
+        border: 1px solid #07B53A;
+        box-sizing: border-box;
+        border-radius: 2px;
+        span {
+            color: #07B53A;
+        }
+    }
+}
+
+.el-loading-spinner {
+    left: 50%!important;
+}
+
+.el-autocomplete-suggestion {
+    .el-scrollbar {
+        border-radius: 4px;
+    }
+}
+
+.el-form-item__label {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.el-menu-item {
+    padding-left: 0 !important;
+}
+
+.el-input {
+    &__inner {
+        height: 35px;
+    }
+}
+
+.el-time-panel {
+    width: 156px!important;
+}
+
+.el-menu--popup {
+    min-width: unset!important;
+}
+
+.el-menu--horizontal {
+    width: 150px;
+}
+.el-radio__input.is-checked .el-radio__inner {
+    border-color: #07B53A!important;
+    background: #07B53A!important;
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+    color: #07B53A!important;
+}
+
+.el-select-dropdown__item.selected {
+    color: #606266!important;
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label {
+    color: #07B53A!important;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner {
+    color: #07B53A!important;
+}

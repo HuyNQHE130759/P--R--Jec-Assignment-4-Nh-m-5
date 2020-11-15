@@ -1,0 +1,56 @@
+@import "base/colors";
+
+.label-default {
+    color: $main;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.text-default {
+    color: #45464F;
+}
+
+.nuxt-link-exact-active {
+    color: $main;
+    font-weight: 500;
+}
+
+.text-label-dialog {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #86878F;
+}
+
+@media only screen and (min-width: 1280px) {
+    .text-label-dialog {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .text-label-dialog {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.landing__text-nav {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #86878F;
+}
+
+@media only screen and (min-width: 1920px) {
+    .landing__text-nav {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

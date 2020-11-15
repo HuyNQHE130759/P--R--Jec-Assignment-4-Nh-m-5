@@ -1,0 +1,15 @@
+app/assets/lib/**
+node_modules
+
+.env*
+!.env.example
+
+*.log
+
+.nuxt
+dist
+.build-cache
+
+.idea
+.vscode
+jsconfig.json

@@ -1,0 +1,70 @@
+@import "base/colors";
+@import "base/borders";
+
+ul.pagination {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: -0.5rem;
+
+    & > li {
+        display: block;
+        font-size: 14px;
+        color: $gray-light;
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        box-sizing: border-box;
+
+        &:hover {
+            a {
+                color: #fff;
+                border: 1px solid #EFEFF0;
+                background: #F9F9F9;
+                border-radius: 4px;
+            }
+            a.disabled {
+                color: $gray-lighter !important;
+                cursor: default !important;
+                border-color: $gray-lighter !important;
+                background-color: transparent;
+            }
+        }
+
+        a {
+            cursor: pointer;
+            display: block;
+            height: 32px;
+            min-width: 32px;
+            line-height: 32px;
+            color: #86878F;
+            text-decoration: none;
+            box-sizing: border-box;
+            background: #F9F9F9;
+            border: 1px solid #EFEFF0;
+            border-radius: 2px;
+
+            &.active {
+                color: #fff;
+                border-radius: 2px;
+                background-color: #86878F;
+            }
+
+            &.disabled {
+                color: $gray-lighter;
+                cursor: default;
+                border-color: $gray-lighter;
+            }
+        }
+
+        .fa {
+            font-size: 18px;
+        }
+    }
+}
+
+.unpage-pagination .page-item a{
+    padding: 0 5px
+}
