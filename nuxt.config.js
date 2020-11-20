@@ -11,7 +11,7 @@ export default {
      ** Nuxt target
      ** See https://nuxtjs.org/api/configuration-target
      */
-    target: 'server',
+    target: 'static',
 
     srcDir: path.resolve(__dirname, 'app'),
     /*
@@ -20,6 +20,9 @@ export default {
      */
     head: {
 
+    },
+    analyze: {
+        analyzerMode: 'static'
     },
     /*
      ** Global CSS

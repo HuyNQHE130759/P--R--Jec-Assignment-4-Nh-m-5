@@ -10,21 +10,27 @@
         </div>
         <div class="w-1/2 m-auto border border-gray-300 p-16 rounded-lg text-center login-content my-8">
             <div class="font-bold text-3xl">
-                FORGOT PASSWORD
+                CHANGE PASSWORD
             </div>
-
-            <div class="mt-8">
-                <el-divider>if you've forgotten your password, enter your account and email</el-divider>
+            <div>
+                <el-divider>Please enter username and password</el-divider>
                 <ElForm>
                     <ElFormItem label="Username">
                         <ElInput/>
                     </ElFormItem>
-                    <ElFormItem label="Mail">
+                    <ElFormItem label="Old Password">
+                        <ElInput/>
+                    </ElFormItem>
+                    <ElFormItem label="New Password">
+                        <ElInput/>
+                    </ElFormItem>
+                    <ElFormItem label="Confirm Password">
                         <ElInput/>
                     </ElFormItem>
                 </ElForm>
                 <ElButton class="mt-8" type="primary">Enter</ElButton>
             </div>
+
         </div>
         <div class="login-footer flex items-center px-8 justify-between py-2" style="background-color: #eeeeee">
             <p>
